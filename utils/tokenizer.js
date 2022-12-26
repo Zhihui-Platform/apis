@@ -97,7 +97,7 @@ ${JSON.stringify(method.result_example, null, 2)}
 \`\`\`
 
 ::: details 定义文件（于\`@${base}\\${file}.yml\`）
-<<< @${base}\\${file}.yml{yaml}
+<<< @${base}/${file}.yml{yaml}
 :::
 `
   return introduction + headers + params + datas + queries + result_example;
