@@ -1,0 +1,28 @@
+name: Create A Class Account
+description: Create a class account
+method: POST
+path: /v1/class/account
+badge: Developing
+datas:
+  gradeid:
+    type: integer
+    required: true
+    description: Grade ID
+  classid:
+    type: integer
+    required: true
+    description: Class ID
+  classname:
+    type: string
+    required: true
+    description: Class Name
+  students:
+    type: integer
+    required: true
+    description: Number of Students
+  password:
+    type: string
+    required: true
+    description: Password
+result_example:
+  status: 200

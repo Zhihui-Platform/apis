@@ -1,0 +1,27 @@
+name: Get Students in the Student Union
+description: Get Students in the Student Union
+method: GET
+path: /v1/class/student/{gradeid}/{classid}/union
+badge: Developing
+parameters:
+  gradeid:
+    type: integer
+    required: true
+    description: Grade ID
+  classid:
+    type: integer
+    required: true
+    description: Class ID
+result_example:
+  status: 200
+  data:
+  - number: 20200110
+    name: 王五
+    sex: 1
+    union: discipline
+    position: minister
+  - number: 20200130
+    name: 李四
+    sex: 0
+    union: core
+    position: chairman

@@ -1,0 +1,8 @@
+name: Apis of Class Account
+description: Apis of Class Account
+methods:
+  get: true
+  getAll: false
+  post: true
+  put: true
+  delete: false

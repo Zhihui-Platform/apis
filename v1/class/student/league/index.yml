@@ -1,0 +1,8 @@
+name: Get Students in the Class as League Branch Tree
+description: Get Students in the Class as League Branch Tree
+methods:
+  get_all: true
+  get: false
+  post: false
+  put: false
+  delete: false

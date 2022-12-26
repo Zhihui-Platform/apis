@@ -1,0 +1,22 @@
+name: Get Specific Class Account
+description: Get specific class account
+method: GET
+path: /v1/class/account/{gradeid}/{classid}
+badge: Developing
+parameters:
+  gradeid:
+    type: integer
+    required: true
+    description: Grade ID
+  classid:
+    type: integer
+    required: true
+    description: Class ID
+result_example:
+  status: 200
+  result:
+    gradeid: 2020
+    classid: 3
+    classname: 2020 级 11 班
+    account: c_2020_11
+    students: 48

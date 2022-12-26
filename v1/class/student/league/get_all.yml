@@ -1,0 +1,27 @@
+name: Get All League Members In A Class
+description: Get All League Members In A Class
+method: GET
+path: /v1/class/student/{gradeid}/{classid}/league
+badge: Developing
+parameters:
+  gradeid:
+    type: integer
+    required: true
+    description: Grade ID
+  classid:
+    type: integer
+    required: true
+    description: Class ID
+result_example:
+  status: 200
+  data:
+  - id: 20200101
+    name: 张三
+    sex: 1
+    league: pre
+    position: pre
+  - id: 20200131
+    name: 李四
+    sex: 0
+    league: member
+    position: secretary

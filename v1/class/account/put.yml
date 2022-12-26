@@ -1,0 +1,29 @@
+name: Update A Class Account
+description: Update a class account
+method: PUT
+path: /v1/class/account/{gradeid}/{classid}
+badge: Developing
+parameters:
+  gradeid:
+    type: integer
+    required: true
+    description: Grade ID
+  classid:
+    type: integer
+    required: true
+    description: Class ID
+datas:
+  classname:
+    type: string
+    required: false
+    description: Class Name
+  students:
+    type: integer
+    required: false
+    description: Number of Students
+  password:
+    type: string
+    required: false
+    description: Password
+result_example:
+  status: 200

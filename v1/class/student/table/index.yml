@@ -1,0 +1,8 @@
+name: Get Students in the Class as Table
+description: Get Students in the Class as Table
+methods:
+  get_all: true
+  get: false
+  post: false
+  put: false
+  delete: false
